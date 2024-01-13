@@ -10,3 +10,6 @@
 [submodule "MokaRenderer"]
 	path = MokaRenderer
 	url = https://github.com/hohfchns/MokaRenderer
+[submodule "MokaLogger"]
+	path = MokaLogger
+	url = https://github.com/hohfchns/MokaLogger
