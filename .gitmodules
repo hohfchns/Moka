@@ -1,0 +1,12 @@
+[submodule "MokaUtils"]
+	path = MokaUtils
+	url = https://github.com/hohfchns/MokaUtils
+[submodule "MokaECS"]
+	path = MokaECS
+	url = https://github.com/hohfchns/MokaECS
+[submodule "MokaWorld"]
+	path = MokaWorld
+	url = https://github.com/hohfchns/MokaWorld
+[submodule "MokaRenderer"]
+	path = MokaRenderer
+	url = https://github.com/hohfchns/MokaRenderer
