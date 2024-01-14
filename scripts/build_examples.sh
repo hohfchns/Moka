@@ -7,6 +7,7 @@ EXAMPLES=(basic_project renderer_project)
 
 for example in ${EXAMPLES[@]};
 do
+  mkdir -p ./examples/$example/vendor
   cp -rf ./build/moka ./examples/$example/vendor
 
   cd examples/$example
