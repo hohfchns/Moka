@@ -1,6 +1,6 @@
 #!/bin/bash
 
-MOKA_LIBS=("MokaUtils" "MokaECS" "MokaWorld" "MokaRenderer")
+MOKA_LIBS=("MokaUtils" "MokaECS" "MokaWorld" "MokaRenderer" "MokaLogger")
 
 curdir=$(basename "$(pwd)")
 
