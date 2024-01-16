@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.10)
 project(ProjectUsingMokaRenderer)
 
-set(MOKA_LIBS MokaRenderer MokaWorld MokaECS MokaUtils)
+set(MOKA_LIBS MokaRenderer MokaWorld MokaECS MokaUtils MokaLogger)
 
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake")
 include("${CMAKE_SOURCE_DIR}/cmake/opengl.cmake")

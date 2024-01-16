@@ -1,4 +1,5 @@
 #include <filesystem>
+#include <iostream>
 #include <glm/glm.hpp>
 #include "moka/ecs/core/ecs.hpp"
 #include "moka/world/components/transform.h"

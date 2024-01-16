@@ -1,4 +1,5 @@
 #include "moka/ecs/core/ecs.hpp"
+#include <iostream>
 
 using namespace moka::ecs;
 
@@ -12,11 +13,11 @@ protected:
   }
 
 public:
-  std::string helloText = "Hello Moka!";
+  std::string helloTo = "Moka";
 
   void SayHello()
   {
-    std::cout << helloText << std::endl;
+    MOKA_LOGF("default", moka::log::LogLevel::WARNING, "Hello %s!", helloTo.c_str());
   }
 };
 

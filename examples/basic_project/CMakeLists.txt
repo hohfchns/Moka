@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.10)
 project(ProjectUsingMoka)
 
-set(MOKA_LIBS MokaECS MokaUtils)
+set(MOKA_LIBS MokaECS MokaUtils MokaLogger)
 
 include_directories("${CMAKE_SOURCE_DIR}/vendor/moka/inc")
 link_directories("${CMAKE_SOURCE_DIR}/vendor/moka/lib")
